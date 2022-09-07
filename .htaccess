@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index.html https://new-example.com/html/html-01.html [R=301,L]
+  RewriteRule ^index_en.html [R=301,L]
+</IfModule>
