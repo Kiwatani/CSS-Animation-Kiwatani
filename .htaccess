@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{http_host} ^https://kiwatani.github.io/BetterAmongUsModWiki/index_ja.html
+RewriteRule ^(.*) https://kiwatani.github.io/BetterAmongUsModWiki/$1 [R=301,L]
