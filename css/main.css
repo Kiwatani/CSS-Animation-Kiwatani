@@ -638,3 +638,7 @@
     top: 30px;
     left: 0px;
 }
+::selection
+{
+    color: #fff;
+}
